@@ -4,10 +4,12 @@ This program builds a parse tree given a boolean formula. It further converts th
 
 The grammar for the logical formula is defined as:
 
-  < S > ::= TRUE
-  < S > ::= FALSE
-  < S > ::= a | b | · · · | z
-  < S > ::= ( <T> )
-  < T > ::= not <S>
-  < T > ::= and <S> <S>
-  < T > ::= or <S> <S>
+```
+< S > ::= TRUE
+< S > ::= FALSE
+< S > ::= a | b | · · · | z
+< S > ::= ( <T> )
+< T > ::= not <S>
+< T > ::= and <S> <S>
+< T > ::= or <S> <S>
+```
