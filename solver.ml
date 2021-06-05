@@ -1,4 +1,4 @@
-open Proj2_types;;
+open solver_types;;
 
 (*      ( and ( or a ( not b ) ) ( or b ( not a ) ) )     ["(";"and";"(";"or";"a";"(";"not";"b";")";")";"(";"or";"b";"(";"not";"a";")";")";")"] ;;           *)
 (*   ["(";"and";"(";"or";"a";"b";")";"TRUE";")"]   *)
