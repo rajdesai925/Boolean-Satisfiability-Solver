@@ -13,3 +13,10 @@ The grammar for the logical formula is defined as:
 < T > ::= and <S> <S>
 < T > ::= or <S> <S>
 ```
+
+In the OCaml interpreter, enter the following commands:
+
+```
+# #mod use "proj2 types.ml";;
+# #use "proj2.ml";;
+```
